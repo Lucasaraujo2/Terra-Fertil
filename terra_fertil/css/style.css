@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+/* mennu */
+
+* {
+    margin: 0px;
+    /* padding: 0; */
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu .linhas {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu ul li a {
+    border: 1px solid rgb(255, 255, 255);
+    /* borda tamnho cor */
+    padding: 5px 20px;
+    /* altura e largura do espaçamento */
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    /* letra */
+    color: white;
+    text-decoration: none;
+    font-family: "Croissant One", serif;
+}
+
+.menu a:hover {
+    border: 1px solid rgb(0, 0, 0);
+    /* borda tamnho cor */
+    padding: 5px 20px;
+    /* altura e largura do espaçamento */
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* mennu */
+
+
+
+
+
+
+.home main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+
+    font-family: "Croissant One", serif;
+    font-size: 80px;
+    color: #acd4ac;
+}
+
+.home {
+    /* background-image: url(../img/background.jpg); */
+    background: linear-gradient(rgba(53, 94, 64, 0.5),
+            rgba(0, 0, 0, 0.514)), url(../img/background.jpg);
+
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
